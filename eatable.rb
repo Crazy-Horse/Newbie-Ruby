@@ -14,7 +14,7 @@ module Eatable
       "Heck yea!!"
     end
     def good?(amount)
-      return ture if amount > @price
+      return true if amount > @price
       false
     end
   end
